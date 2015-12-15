@@ -23,6 +23,7 @@ namespace Nop.Core.Tests
             _webHelper.ServerVariables("Key1").ShouldEqual("Value1");
             _webHelper.ServerVariables("Key2").ShouldEqual("Value2");
             _webHelper.ServerVariables("Key3").ShouldEqual("");
+            int a=int.Parse("aaa");
         }
 
         [Test]
