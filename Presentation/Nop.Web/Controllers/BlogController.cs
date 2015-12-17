@@ -100,7 +100,7 @@ namespace Nop.Web.Controllers
         {
             if (blogPost == null)
                 throw new ArgumentNullException("blogPost");
-int a="a";
+
             if (model == null)
                 throw new ArgumentNullException("model");
 
